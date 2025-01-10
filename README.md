@@ -10,7 +10,7 @@ Ce projet est une application en langage C qui permet d'entrer les données d'un
 - Afficher les nœuds minimum, maximum, le prédécesseur ou le successeur d'un nœud.
 - Rechercher un nœud dans l'arbre binaire de recherche.
 - Supprimer un nœud de l'arbre binaire.
-![Fonctionalités](./Fonctionnalités - visual selection.png "Fonctionnalités de l'application")
+![Fonctionalités](./Fonctionnalités.png "Fonctionnalités de l'application")
 
 ---
 ## Installation et Compilation
