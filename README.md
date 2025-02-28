@@ -1,57 +1,62 @@
-
 # Création, parcours et manipulation d'un arbre binaire de recherche
-Ce projet est une application en langage C qui permet d'entrer les données d'un arbre binaire de recherche afin d'en afficher les extremums et manipuler ses différents nœuds. 
 
+![GitHub repo size](https://img.shields.io/github/repo-size/johanalain11/parcours-abr)
+![GitHub last commit](https://img.shields.io/github/last-commit/johanalain11/parcours-abr)
+![GitHub license](https://img.shields.io/github/license/johanalain11/etudiant-cotisation)
+![C](https://img.shields.io/badge/Language-C-blue)
+![GCC](https://img.shields.io/badge/Compiler-GCC-orange)
 
-## Fonctionnalités
+Ce projet est une application en langage C qui permet d'entrer les données d'un arbre binaire de recherche afin d'en afficher les extrêmes et manipuler ses différents nœuds.
 
-![Fonctionalités](./Fonctionnalités.png "Fonctionnalités de l'application")
+## 🚀 Fonctionnalités
 
-- Ajouter des valeurs à l'arbre binaire.
-- Faire un parcours infixé, post-fixé ou préfixé de l'arbre binaire.
-- Afficher les nœuds minimum, maximum, le prédécesseur ou le successeur d'un nœud.
-- Rechercher un nœud dans l'arbre binaire de recherche.
-- Supprimer un nœud de l'arbre binaire.
+![Fonctionnalités](./Fonctionnalités.png "Fonctionnalités de l'application")
+
+✅ Ajouter des valeurs à l'arbre binaire.
+✅ Effectuer un parcours infixé, post-fixé ou préfixé de l'arbre binaire.
+✅ Afficher les nœuds minimum, maximum, le prédécesseur ou le successeur d'un nœud.
+✅ Rechercher un nœud dans l'arbre binaire de recherche.
+✅ Supprimer un nœud de l'arbre binaire.
 
 ---
-## Installation et Compilation
+## 🛠️ Installation et Compilation
 
-1. Cloner le dépôt
+### 1️⃣ Cloner le dépôt
 Clonez le projet depuis GitHub :
 ```sh
 git clone https://github.com/johanalain11/parcours-abr.git
 cd parcours-abr
 ```
-2. Compiler le code
+### 2️⃣ Compiler le code
 ```sh
 make
 ```
-3. Exécuter l'application
+### 3️⃣ Exécuter l'application
 ```sh
 ./programme
 ```
 
 ---
-## Utilisation
+## 📌 Utilisation
 1. Lancez le programme.
-2. Choisir l'opération à effectuer sur l'arbre binaire dans le menu :
-    * Ajouter une valeur.
-    * Parcourir l'arbre.
-    * Afficher le nœud minimum.
-    * Afficher le nœud maximum.
-    * Rechercher un nœud.
-    * Afficher le prédécesseur.
-    * Afficher le successeur.
-    * Supprimer un nœud.
-    * Quitter le programme.
+2. Choisissez l'opération à effectuer sur l'arbre binaire dans le menu :
+   - ➕ Ajouter une valeur.
+   - 🔄 Parcourir l'arbre.
+   - 📉 Afficher le nœud minimum.
+   - 📈 Afficher le nœud maximum.
+   - 🔍 Rechercher un nœud.
+   - ⏪ Afficher le prédécesseur.
+   - ⏩ Afficher le successeur.
+   - 🗑️ Supprimer un nœud.
+   - 🚪 Quitter le programme.
 
 ---
-## Exemple d'exécution
+## 🖥️ Exemple d'exécution
 ![Exemple d'exécution](./exec.png "Capture d'ajout d'une valeur")
 
 ---
-## Structure de données
-Chaque arbre binaire est représenté par une structure ABR :
+## 📂 Structure de données
+Chaque arbre binaire est représenté par la structure suivante :
 ```c
 struct ABR
 {
@@ -64,21 +69,21 @@ struct ABR
 ```
 
 ---
-## Technologies Utilisées
-**Langage de programmation :** C
-
-**Compilateur :** GCC
+## 🛠️ Technologies Utilisées
+- **Langage de programmation :** C
+- **Compilateur :** GCC
 
 ---
-## Améliorations Futures
+## 🔮 Améliorations Futures
 >[!NOTE]
 >
->* Ajouter une interface graphique.
->* Ajouter un système de manipulation de plusieurs arbre binaires.
->* Gérer les erreurs potentielles, comme des entrées invalides ou des dépassements de mémoire.
->* Ajouter un système de sauvegarde et de chargement des données dans un fichier.
+>* 📌 **Ajout d'une interface graphique.**
+>* 📌 **Gestion de plusieurs arbres binaires simultanément.**
+>* 📌 **Validation robuste des entrées utilisateur.**
+>* 📌 **Gestion des erreurs (entrées invalides, dépassements de mémoire, etc.).**
+>* 📌 **Sauvegarde et chargement des données dans un fichier.**
 
-## Auteur
-**Johan Alain**
-
-[GitHub](https://github.com/johanalain11/)
+---
+## 👨‍💻 Auteur
+**Johan Alain**  
+📌 [GitHub](https://github.com/johanalain11/)
