@@ -51,10 +51,6 @@ make
    - 🚪 Quitter le programme.
 
 ---
-## 🖥️ Exemple d'exécution
-![Exemple d'exécution](./exec.png "Capture d'ajout d'une valeur")
-
----
 ## 📂 Structure de données
 Chaque arbre binaire est représenté par la structure suivante :
 ```c
